@@ -2,11 +2,63 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.header__container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+.header__logoImg {
+  width: 180px;
+}
+.header__menu {
+  display: block;
+  width: 27px;
+  height: 21px;
+  background-image: url(/assets/icons/menu.png);
+  background-repeat: no-repeat;
+}
+.header__nav {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  background-color: #ffd00745;
+  visibility: collapse;
+}
+.header__nav ul {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+.header__nav ul li {
+  padding: 20px 0;
+}
+.header__nav ul li a {
+  display: block;
+  font-size: 24px;
+  color: #5f5f5f;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header__nav ul li:hover,
+.header__nav ul a:hover {
+  color: white;
+  background-color: #ffd007;
+}
+.header #check {
+  display: none;
+}
+.header #check:checked ~ .header__nav {
+  visibility: visible;
 }
 
 /*# sourceMappingURL=styles.css.map */
