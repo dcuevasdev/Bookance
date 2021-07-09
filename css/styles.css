@@ -32,6 +32,7 @@
   top: 40px;
   width: 100%;
   background-color: #ffd00745;
+  opacity: 0;
   visibility: collapse;
 }
 .header__nav ul {
@@ -58,7 +59,9 @@
   display: none;
 }
 .header #check:checked ~ .header__nav {
+  opacity: 1;
   visibility: visible;
+  transition: opacity 500ms;
 }
 
 /*# sourceMappingURL=styles.css.map */
