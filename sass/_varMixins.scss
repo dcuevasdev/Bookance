@@ -3,7 +3,7 @@ $h1DesktopSize: 46px;
 $h2DesktopSize: 30px;
 
 $h1MobileSize: 36px;
-$h2MobileSize: 24px;
+$h2MobileSize: 30px;
 
 $h3pSize: 18px;
 
@@ -14,3 +14,13 @@ $color-one: #ffd007;
 $color-two: #fd7676;
 $color-three: #005dce;
 $color-p: #5f5f5f;
+
+@mixin numerical-cycle {
+  @for $i from 1 to 5 {
+    .number-#{$i} {
+      &::before {
+        content: "#{$i}";
+      }
+    }
+  }
+}
