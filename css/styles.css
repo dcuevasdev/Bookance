@@ -121,4 +121,22 @@
   width: 100%;
 }
 
+.benefits {
+  margin-top: 100px;
+}
+.benefits__container {
+  text-align: center;
+}
+.benefits__item {
+  margin: 30px 0;
+  padding: 0 60px;
+}
+.benefits__item img {
+  width: 120px;
+}
+.benefits__item p {
+  font-size: 15px;
+  color: #5f5f5f;
+}
+
 /*# sourceMappingURL=styles.css.map */
