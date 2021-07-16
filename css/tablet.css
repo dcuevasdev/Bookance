@@ -51,4 +51,19 @@
   margin: 0;
 }
 
+/*============================
+  Benefits
+============================*/
+.benefits {
+  margin-top: 60px;
+}
+.benefits__container {
+  display: flex;
+  justify-content: space-between;
+}
+.benefits__item {
+  width: 212px;
+  padding: 0 20px;
+}
+
 /*# sourceMappingURL=tablet.css.map */

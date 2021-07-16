@@ -55,3 +55,17 @@
     margin: 0;
   }
 }
+/*============================
+  Benefits
+============================*/
+.benefits {
+  margin-top: 60px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 212px;
+    padding: 0 20px;
+  }
+}
