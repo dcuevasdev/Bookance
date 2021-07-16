@@ -1,2 +1,38 @@
-@import "_globals.scss";
-@import "_varMixins.scss";
+@import "_varMixins";
+@import "_globals";
+
+/*============================
+    Header
+    ============================*/
+.header {
+  margin-top: 32px;
+  &__menu {
+    display: none;
+  }
+  &__nav {
+    position: relative;
+    top: 0;
+    width: 300px;
+    background-color: transparent;
+    opacity: 1;
+    visibility: visible;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      li {
+        height: auto;
+        a {
+          font-size: $pSize;
+          line-height: 18px;
+          color: $color-p;
+        }
+      }
+      li:hover,
+      a:hover {
+        color: $color-three;
+        background-color: transparent;
+        transition: none;
+      }
+    }
+  }
+}
