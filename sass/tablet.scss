@@ -1,11 +1,9 @@
 @import "_varMixins";
-@import "_globals";
 
 /*============================
-    Header
-    ============================*/
+  Header
+============================*/
 .header {
-  margin-top: 32px;
   &__menu {
     display: none;
   }
@@ -34,5 +32,26 @@
         transition: none;
       }
     }
+  }
+}
+/*============================
+  Main
+============================*/
+.main {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__texts {
+    margin-bottom: 0;
+    p {
+      line-height: 22px;
+    }
+    img {
+      display: none;
+    }
+  }
+  &__img {
+    margin: 0;
   }
 }

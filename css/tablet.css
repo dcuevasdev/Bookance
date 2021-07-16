@@ -1,25 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
 /*============================
-    Header
-    ============================*/
-.header {
-  margin-top: 32px;
-}
+  Header
+============================*/
 .header__menu {
   display: none;
 }
@@ -48,6 +29,26 @@ html {
   color: #005dce;
   background-color: transparent;
   transition: none;
+}
+
+/*============================
+  Main
+============================*/
+.main__container {
+  display: flex;
+  justify-content: space-between;
+}
+.main__texts {
+  margin-bottom: 0;
+}
+.main__texts p {
+  line-height: 22px;
+}
+.main__texts img {
+  display: none;
+}
+.main__img {
+  margin: 0;
 }
 
 /*# sourceMappingURL=tablet.css.map */
