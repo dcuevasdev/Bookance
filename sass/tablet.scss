@@ -48,7 +48,7 @@
       line-height: 22px;
     }
     img {
-      display: none;
+      visibility: hidden;
     }
   }
   &__img {
@@ -67,5 +67,15 @@
   &__item {
     width: 212px;
     padding: 0 20px;
+  }
+}
+/*============================
+  Footer
+============================*/
+.footer {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
   }
 }

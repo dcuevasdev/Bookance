@@ -45,7 +45,7 @@
   line-height: 22px;
 }
 .main__texts img {
-  display: none;
+  visibility: hidden;
 }
 .main__img {
   margin: 0;
@@ -64,6 +64,15 @@
 .benefits__item {
   width: 212px;
   padding: 0 20px;
+}
+
+/*============================
+  Footer
+============================*/
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 /*# sourceMappingURL=tablet.css.map */
