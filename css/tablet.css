@@ -39,7 +39,11 @@
   justify-content: space-between;
 }
 .main__texts {
+  width: 450px;
   margin-bottom: 0;
+}
+.main__texts h1 {
+  width: 100%;
 }
 .main__texts p {
   line-height: 22px;
@@ -48,6 +52,7 @@
   visibility: hidden;
 }
 .main__img {
+  width: 450px;
   margin: 0;
 }
 
