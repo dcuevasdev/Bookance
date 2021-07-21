@@ -46,7 +46,7 @@
   justify-content: space-between;
 }
 .main__texts {
-  width: 450px;
+  width: 50%;
   margin-bottom: 0;
 }
 .main__texts h1 {
@@ -59,7 +59,7 @@
   visibility: hidden;
 }
 .main__img {
-  width: 450px;
+  width: 50%;
   margin: 0;
 }
 
@@ -74,7 +74,7 @@
   justify-content: space-between;
 }
 .benefits__item {
-  width: 212px;
+  width: 33.33%;
   padding: 0 20px;
 }
 
