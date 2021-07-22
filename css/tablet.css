@@ -77,6 +77,12 @@
   width: 33.33%;
   padding: 0 20px;
 }
+.benefits__item--p2 {
+  margin-top: 16px;
+}
+.benefits__item--p3 {
+  margin-top: 7px;
+}
 
 /*============================
   Functioning

@@ -1,1 +1,39 @@
 @import "_varMixins";
+/*============================
+  Main
+============================*/
+.main {
+  &__texts {
+    h1 {
+      font-size: $h1DesktopSize;
+      font-weight: 700;
+    }
+  }
+  &__img {
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .main {
+    &__texts {
+      img {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 110px;
+        margin-top: 90px;
+        visibility: visible;
+      }
+    }
+    &__container {
+      align-items: flex-end;
+    }
+    &__img {
+      margin-left: -60px;
+      width: 664px;
+    }
+  }
+}

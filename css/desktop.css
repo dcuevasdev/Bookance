@@ -1,3 +1,33 @@
+/*============================
+  Main
+============================*/
+.main__texts h1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.main__img {
+  position: relative;
+}
+.main__img img {
+  width: 100%;
+}
 
+@media (min-width: 1200px) {
+  .main__texts img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 110px;
+    margin-top: 90px;
+    visibility: visible;
+  }
+  .main__container {
+    align-items: flex-end;
+  }
+  .main__img {
+    margin-left: -60px;
+    width: 664px;
+  }
+}
 
 /*# sourceMappingURL=desktop.css.map */
