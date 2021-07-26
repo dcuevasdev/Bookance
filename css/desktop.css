@@ -62,4 +62,11 @@
   margin-left: calc(100% - 80%);
 }
 
+/*============================
+  Speak
+============================*/
+.speak {
+  display: block;
+}
+
 /*# sourceMappingURL=desktop.css.map */
