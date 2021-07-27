@@ -69,4 +69,28 @@
   display: block;
 }
 
+/*============================
+  contact
+============================*/
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__form {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact__form .input__text {
+  margin-bottom: 15px;
+}
+.contact__form .contact__email {
+  width: 360px;
+}
+.contact__form .contact__check {
+  margin: 0 0 0 15px;
+}
+
 /*# sourceMappingURL=desktop.css.map */

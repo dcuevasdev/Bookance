@@ -277,7 +277,7 @@ html {
   flex-direction: column;
   align-items: center;
 }
-.contact__form .contact_name,
+.contact__form .contact__name,
 .contact__form .contact__email {
   width: 313px;
 }
@@ -301,11 +301,11 @@ html {
 .contact__form .input__email {
   margin-bottom: 5px;
 }
-.contact__form .contact__chek {
+.contact__form .contact__check {
   margin-bottom: 22px;
   color: white;
 }
-.contact__form .contact__chek a {
+.contact__form .contact__check a {
   color: white;
 }
 .contact__form input[type=submit] {
@@ -319,6 +319,7 @@ html {
   background-color: #fd7676;
   border-radius: 36px;
   outline: none;
+  cursor: pointer;
 }
 .contact__form input[type=submit]:hover {
   background-color: #ff9d9d;

@@ -79,3 +79,28 @@
 .speak {
   display: block;
 }
+/*============================
+  contact
+============================*/
+.contact {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    .input__text {
+      margin-bottom: 15px;
+    }
+    .contact__email {
+      width: 360px;
+    }
+    .contact__check {
+      margin: 0 0 0 15px;
+    }
+  }
+}
