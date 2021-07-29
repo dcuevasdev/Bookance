@@ -74,20 +74,24 @@
 ============================*/
 .contact__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+.contact__title {
+  width: 210px;
 }
 .contact__form {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  width: 700px;
 }
 .contact__form .input__text {
   margin-bottom: 15px;
 }
 .contact__form .contact__email {
-  width: 360px;
+  width: 380px;
 }
 .contact__form .contact__check {
   margin: 0 0 0 15px;
