@@ -97,4 +97,39 @@
   margin: 0 0 0 15px;
 }
 
+@media (min-width: 1350px) {
+  /*============================
+    Global
+  ============================*/
+  .container {
+    width: 1250px;
+  }
+
+  /*============================
+      Functioning
+  ============================*/
+  .functioning {
+    background: linear-gradient(90deg, #ffdc40 35%, white 0%);
+  }
+  .functioning__container {
+    position: relative;
+  }
+  .functioning__how .how__item .number::before {
+    left: calc(100% - 100%);
+  }
+
+  /*============================
+    contact
+  ============================*/
+  .contact__form {
+    width: 800px;
+  }
+  .contact__form .contact__name {
+    width: 320px;
+  }
+  .contact__form .contact__email {
+    width: 450px;
+  }
+}
+
 /*# sourceMappingURL=desktop.css.map */
