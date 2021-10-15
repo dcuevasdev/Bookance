@@ -1,6 +1,4 @@
-<h1 align="center">{Your project name}</h1>
-
-# Bookance 📚
+<h1 align="center">Bookance 📚</h1>
 
 Landing page para los amantes de los libros donde es posible pertenecer a clubes de lectura, vender e intercambiar libros usados.
 
