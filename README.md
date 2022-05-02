@@ -4,7 +4,7 @@ Landing page para los amantes de los libros donde es posible pertenecer a clubes
 
 ## 🚀 Deploy
 
-En el siguiente link puedes [ver la web del proyecto](https://dcuevas24.github.io/Bookance/ "Demo del proyecto").
+En el siguiente link puedes [ver la web del proyecto](https://dcuevasdev.github.io/Bookance/ "Demo del proyecto").
 
 #### Desktop 💻
 
@@ -31,7 +31,7 @@ Puedes realizar la contribución que desees por medio de un Pull requests. Para 
 
 ## ✒️ Autores
 
-- **Daniel Cuevas** - _Desarrollo_ - [@dcuevasr24](https://twitter.com/dcuevasr24 "@dcuevasr24")
+- **Daniel Cuevas** - _Desarrollo_ - [@dcuevasr24](https://twitter.com/dcuevasdev "@dcuevasr24")
 - **Laura Moreno** - _Diseño_ - [@lauramoreno.ai](https://www.instagram.com/lauramoreno.ai/?utm_medium=copy_link "@lauramoreno.ai")
 
 ## 📄 Licencia
